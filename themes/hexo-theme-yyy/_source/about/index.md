@@ -1,8 +1,7 @@
 ---
-title: 关于
-description: 个人简介
+title: 团队
+description: 团队
 layout: about
 comments: false
 sidebar: custom
 ---
-个人详细介绍

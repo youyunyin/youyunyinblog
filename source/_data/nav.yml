@@ -1,0 +1,48 @@
+#导航 nav
+开发社区:
+  掘金:
+    link: https://juejin.im/
+    logo: /images/logo/gold-logo.png
+    desc: 只有高手分享的技术社区
+  segmentfault:
+    link: https://segmentfault.com/
+    logo: /images/logo/segmentfault-logo.png
+    desc: 一个专注于解决编程问题的社区
+  Stack Overflow:
+    link: https://stackoverflow.com/
+    logo: /images/logo/stackoverflow-logo.png
+    desc: 研发技术问题社区，英文社区
+  GitHub:
+    link: https://github.com/
+    logo: /images/logo/github-logo.png
+    desc: 面向开源项目的git托管平台
+框架类库:
+  Angular:
+    link: https://www.angular.cn/
+    logo: /images/logo/angular-logo.png
+    desc: 一套框架 多种平台 移动端 & 桌面端
+  Vue:
+    link: https://cn.vuejs.org/
+    logo: /images/logo/vue-logo.png
+    desc: 渐进式JavaScript框架
+  React:
+    link: https://reactjs.org/
+    logo: /images/logo/react-logo.png
+    desc: A JavaScript library for building user interfaces
+  React Native:
+    link: https://reactnative.cn/
+    logo: /images/logo/react-native-logo.png
+    desc: 使用JavaScript和React编写原生移动应用
+  Bootstrap:
+    link: http://www.bootcss.com/
+    logo: /images/logo/bootstrap-logo.png
+    desc: 简洁、直观、强悍的前端开发框架，让web开发更迅速、简单
+  jQuery:
+    link: https://www.jquery123.com/
+    logo: /images/logo/jquery-logo.png
+    desc: jQuery API 中文文档
+图形渲染:
+  D3:
+    link: https://d3js.org/
+    logo: /images/logo/d3-logo.png
+    desc: 用动态图形展示数据的js库

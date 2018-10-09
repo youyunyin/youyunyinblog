@@ -9,17 +9,17 @@
     <div class="row">
       <% for (var link in site.data.links) { %>
         <% var item = site.data.links[link]; %>
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4" style="margin-top: 20px">
             <div class="panel panel-default hover-shadow hover-grow">
               <figure class="media media-middle">
                 <div class="media-left pr-no">
-                  <a href="<%= item.link %>" target="_blank" class="img-burn thumb-md media-middle">
-                    <img src="<%= item.avatar %>" class="w-full" alt="">
+                  <a href="<%= item.avatar %>" target="_blank" class="img-burn thumb-md media-middle">
+                    <img src="<%= item.avatar %>" class="w-full" alt="" style="border-radius: 50%">
                   </a>
                 </div>
                 <div class="media-body p-0x">
-                  <h4 class="media-heading"><a href="<%= item.link %>" target="_blank"><span class="text-dark"><%= link %></span></a></h4>
-                  <div class="text-muted">
+                  <h4 class="media-heading"><a href="<%= item.link %>" target="_blank"><span class="text-blue" style="font-size: 14px;font-weight: 700"><%= link %></span></a></h4>
+                  <div class="text-muted" style="font-size: 12px;">
                     <%= item.desc %>
                   </div>
                 </div>

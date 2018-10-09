@@ -3369,7 +3369,9 @@ svg {
 .text-dark {
   color: #333 !important;
 }
-
+.text-blue {
+  color: #3273dc !important;
+}
 .text-grey {
   color: #999 !important;
 }
@@ -4726,9 +4728,10 @@ a.label:focus {
 }
 
 .panel {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   background-color: #fff;
   border: 1px solid #f2f2f2;
+  border-radius: 6px;
 }
 
 .panel .article-title {
@@ -5944,7 +5947,7 @@ body.no-sidebar .sidebar {
   box-sizing: border-box;
   margin: auto;
   padding: 3px;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
 }
 
 #comments .gitment-footer-container,

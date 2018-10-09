@@ -8,6 +8,7 @@ menu:
   Movies: 電影
   Links: 友鏈
   About: 關於
+  Nav: 導航
 nav:
   all: All
   older: 下一篇
@@ -46,11 +47,11 @@ widget:
   recent_posts: 最新文章
 profile: 
   follow: 關注
-  skill: 技能
-  label: 個人標簽
-  work: 個人作品
-  project: 個人項目
-  link: 個人鏈接
+  skill: 技術棧
+  label: 標簽
+  work: 作品
+  project: 項目
+  link: 鏈接
 insight:
   hint: 想要查找什麼...
   posts: 文章

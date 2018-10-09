@@ -8,6 +8,7 @@ menu:
   # Books: books  # 豆瓣书单
   Links: links  # 友链
   About: about  # 关于
+  Nav: nav #导航
 
 # Enable/Disable menu icons
 menu_icons:
@@ -20,6 +21,7 @@ menu_icons:
   books: icon-book-fill
   links: icon-friendship
   about: icon-cup-fill
+  nav: icon-eye-fill
 
 # rss
 rss: /atom.xml
@@ -31,7 +33,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: 用友友云音技术团队 # 页面title
+  title: 用友友云音前端技术团队 # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
@@ -176,9 +178,9 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 友云音
-  author_title: 用友APM友云音技术团队
-  author_description: 用友友云音技术团队
+  author: 友云音FED
+  author_title: 用友APM友云音前端技术团队
+  author_description: 用友APM友云音前端技术团队
   location: 北京, 中国
   follow: https://www.youyunyin.com
   # Social Links
@@ -194,12 +196,18 @@ profile:
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   skills:
-    Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Java: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
+    Angularjs: 
+    Gulp:
+    ES6:
+    Bootstrap:
+    Echarts:
+    Vue:
+    Webpack:
+    NodeJs:
+    Git: #★★★☆☆
+    Java: 
+    Spring MVC:
+
 
   # My Personal Links
   # links:
@@ -210,17 +218,22 @@ profile:
   #   Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
+    - PC前端
+    - 移动web
+    - java Web
+    - 全栈
   # My Personal Works
   works:
-    name:
-      link: http://www.example.com
-      date: 2016
+    维护云:
+      link: http://umc.yonyou.com
+      date: 2015
+    友云音:
+      link: http://yyy.yonyoucloud.com
+      date: 2016-2018
+    DataFace(在研):
+      link: 
+      date: 2018
   # My Personal Projects
-  projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+  # projects:
+  #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+  #   cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
