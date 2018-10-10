@@ -16,6 +16,10 @@
     link: https://github.com/
     logo: /images/logo/github-logo.png
     desc: 面向开源项目的git托管平台
+  印记中文:
+    link: https://www.docschina.org/
+    logo: /images/logo/docschina-logo.png
+    desc: 权威的中文技术文档社区
 框架类库:
   Angular:
     link: https://www.angular.cn/
@@ -28,21 +32,96 @@
   React:
     link: https://reactjs.org/
     logo: /images/logo/react-logo.png
-    desc: A JavaScript library for building user interfaces
+    desc: A js library for building user interfaces
   React Native:
     link: https://reactnative.cn/
-    logo: /images/logo/react-native-logo.png
-    desc: 使用JavaScript和React编写原生移动应用
+    logo: /images/logo/react-logo.png
+    desc: 使用js和React编写原生移动应用
   Bootstrap:
     link: http://www.bootcss.com/
     logo: /images/logo/bootstrap-logo.png
-    desc: 简洁、直观、强悍的前端开发框架，让web开发更迅速、简单
+    desc: 简洁、直观、强悍的前端开发框架
   jQuery:
     link: https://www.jquery123.com/
     logo: /images/logo/jquery-logo.png
     desc: jQuery API 中文文档
+  Element-UI:
+    link: http://element-cn.eleme.io/#/zh-CN
+    logo: /images/logo/element-logo.png
+    desc: 基于 Vue 2.0 的桌面端组件库
+  Moment.Js:
+    link: http://momentjs.com/
+    logo: /images/logo/moment-logo.png
+    desc: js日期处理类库
+  Lodashjs:
+    link: https://www.lodashjs.com/
+    logo: /images/logo/lodashjs-logo.png
+    desc: 一致性、模块化、高性能的js实用工具库
 图形渲染:
   D3:
     link: https://d3js.org/
     logo: /images/logo/d3-logo.png
     desc: 用动态图形展示数据的js库
+  Echarts:
+    link: http://echarts.baidu.com/
+    logo: /images/logo/echarts-logo.png
+    desc: 百度研发图表库
+  Highcharts:
+    link: https://www.highcharts.com/
+    logo: /images/logo/highcharts-logo.png
+    desc: 图表库
+  threejs:
+    link: https://threejs.org/
+    logo: /images/logo/threejs-logo.png
+    desc: 3D引擎
+构建工具:
+  Gulp中文网:
+    link: https://www.gulpjs.com.cn/
+    logo: /images/logo/gulp-logo.png
+    desc: 用自动化构建工具增强你的工作流程！
+  Webpack中文网:
+    link: https://www.webpackjs.com/
+    logo: /images/logo/webpack-logo.png
+    desc: 打包所有的脚本
+  Grunt中文网:
+    link: https://www.gruntjs.net/
+    logo: /images/logo/grunt-logo.png
+    desc: js世界的构建工具
+  Babel:
+    link: https://www.babeljs.cn/
+    logo: /images/logo/babel-logo.png
+    desc: js编译器
+Node:
+  Node:
+    link: https://nodejs.org
+    logo: /images/logo/node-logo.png
+    desc: 基于V8引擎的js运行环境
+  Node v8 中文文档:
+    link: https://www.nodeapp.cn/
+    logo: /images/logo/node-logo.png
+    desc: v8.x 中文文档
+  Node.js中文社区:
+    link: https://cnodejs.org/
+    logo: /images/logo/node-logo.png
+    desc: Node.js中文社区
+  NPM中文文档:
+    link: https://www.npmjs.com.cn/
+    logo: /images/logo/npm-logo.png
+    desc: NPM中文文档
+  koa:
+    link: https://koa.bootcss.com/
+    logo: /images/logo/koa-logo.png
+    desc: 基于nodejs平台的下一代web框架
+  Express:
+    link: http://www.expressjs.com.cn/
+    logo: /images/logo/express-logo.png
+    desc: 基于nodejs极简的web开发框架
+  egg:
+    link: https://eggjs.org
+    logo: /images/logo/egg-logo.png
+    desc: 为企业级框架和应用而生
+CDN:
+  BootCDN:
+    link: https://www.bootcdn.cn/
+    logo: /images/logo/bootcdn-logo.png
+    desc: 免费的前端开源项目CDN加速服务
