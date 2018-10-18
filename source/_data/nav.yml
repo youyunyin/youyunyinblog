@@ -120,8 +120,12 @@ Node:
     link: https://eggjs.org
     logo: /images/logo/egg-logo.png
     desc: 为企业级框架和应用而生
-CDN:
+服务:
   BootCDN:
     link: https://www.bootcdn.cn/
     logo: /images/logo/bootcdn-logo.png
     desc: 免费的前端开源项目CDN加速服务
+  netlify:
+    link: https://www.netlify.cn/
+    logo: /images/logo/netlify-logo.png
+    desc: 免费提供静态网络托管服务的综合平台

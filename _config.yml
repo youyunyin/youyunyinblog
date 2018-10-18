@@ -5,8 +5,8 @@
 # Site
 title: Hexo
 subtitle:
-description:
-keywords:
+description: #搜索引擎
+keywords: #搜索引擎
 author: youyunyin
 language: zh-CN
 timezone:
@@ -15,21 +15,21 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://youyunyin.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:title/ #内容页存储路径结构
 permalink_defaults:
 
 # Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+source_dir: source #资源目录结
+public_dir: public #发布目录名
+tag_dir: tags #标签目录名
+archive_dir: archives #归档目录名
+category_dir: categories #分类目录名
 code_dir: downloads/code
-i18n_dir: :lang
+i18n_dir: :lang #多语目录名
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -55,7 +55,14 @@ index_generator:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
+# 分类的隐射，md文章中写的分类和url中显示的分类隐射，
+# 如下，这样在post文章中category填写分类前端，在生成url中就显示fed而不是中文
+# category_map: 
+#        前端: fed
+#        后端: backend
+#
+#
+category_map: 
 tag_map:
 
 # Date / Time format
@@ -77,6 +84,7 @@ theme: hexo-theme-yyy
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# 编译之后部署的github地址，使用hexo d命令会直接将编译后的静态推送到如下地址
 deploy:
   type: git
   repo:

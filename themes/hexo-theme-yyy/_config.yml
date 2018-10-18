@@ -7,7 +7,7 @@ menu:
   Repository: repository  # github repositories
   # Books: books  # 豆瓣书单
   Links: links  # 友链
-  # About: about  # 关于
+  About: about  # 关于
   Nav: nav #导航
 
 # Enable/Disable menu icons
@@ -36,7 +36,7 @@ site:
   title: 用友友云音前端技术团队 # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
-  copyright: false # 底部版权信息
+  copyright: true # 底部版权信息
 
 # config
 config:
@@ -45,7 +45,7 @@ config:
   toc: true # 是否开启文章章节目录导航
   menu_highlight: false # 是否开启当前菜单高亮显示
   thumbnail: false # enable posts thumbnail, options: true, false
-  excerpt_link: Read More
+  excerpt_link: Read More #列表页里Read more链接名称，可以替换成’查看更多‘等。
 
 # Pagination
 pagination:
@@ -55,7 +55,7 @@ pagination:
   next:
     alwayShow: true
 
-# Sidebar
+# Sidebar   #站点右边栏，可以调整顺序和增减内容，会自动调用主题layout/_widget目录下的同名文件
 sidebar: right
 widgets:
   - board
