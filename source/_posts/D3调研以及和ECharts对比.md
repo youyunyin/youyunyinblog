@@ -10,8 +10,7 @@ date: 2018-10-28
 
 近年来，可视化越来越流行，许多门户网站、新闻、媒体都大量使用可视化技术，使得复杂的数据和文字变得十分容易理解，有一句谚语“一张图片价值于一千个字”，的确是名副其实。各种数据可视化工具也如井喷式地发展，D3，ECharts正是其中的佼佼者。
 
-D3 的全称是（Data-Driven
-Documents），顾名思义是一个被数据驱动的文档。其实是对数据进行可视化的JavaScript库。D3将强大的可视化和交互技术与数据驱动的DOM操作方法相结合，能最大限度地使用现代浏览器的性能同时为设计可视化界面保留了最大的自由度。D3强调Web标准，所以无需将自己与专有框架联系起来。
+D3 的全称是（Data-DrivenDocuments），顾名思义是一个被数据驱动的文档。其实是对数据进行可视化的JavaScript库。D3将强大的可视化和交互技术与数据驱动的DOM操作方法相结合，能最大限度地使用现代浏览器的性能同时为设计可视化界面保留了最大的自由度。D3强调Web标准，所以无需将自己与专有框架联系起来。
 
 官网：<https://d3js.org/>
 
@@ -71,7 +70,7 @@ ECharts，hightchart这类可视化库，经过配置即可完成图表的绘制
 
 -   学习D3.js的编程风格
 
-D3的语法大部分是函数式编程，了解一下函数式编程的curry与compose思想，除getter基本都可以链式调用这点类似于jQuery，理解选择器绑定数据后Update，Enter 和 Exit 的用法，然后要学习D3的画图一般思路，就像前面的开发流程。
+    D3的语法大部分是函数式编程，了解一下函数式编程的curry与compose思想，除getter基本都可以链式调用这点类似于jQuery，理解选择器绑定数据后Update，Enter 和 Exit 的用法，然后要学习D3的画图一般思路，就像前面的开发流程。
 
 总结：D3和ECharts，hightchart这类可视化库相比属于可视化中较为基础的工具库，需要一定的可视化方面的基础才能比较快速开发出较复杂的图表，可以先尝试实现简单的图形，官网首页上面就大部分酷炫的在线Demo，难度较高可以先从demo网址找些简单点来实现
 
@@ -105,7 +104,7 @@ Canvas比较适合事件交与较少，文本较少，或者数据量大画面�
 
 1.  对于ECharts支持的图表：
 
-使用ECarts有较大的优势，开发效率高，动画、事件等实现也比较完善，正常情况下基本没有bug。
+    使用ECarts有较大的优势，开发效率高，动画、事件等实现也比较完善，正常情况下基本没有bug。
 
 1.  对于Echarts不支持的图表：
 
@@ -131,6 +130,5 @@ MDN
 Canvas教程<https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial>
 
 WebGl简介 <http://www.khronos.org/webgl/>
-,<https://www.w3.org/community/declarative3d/wiki/Related_technologies>
 
 MDN WebGl教程 <https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API>
