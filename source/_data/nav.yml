@@ -20,6 +20,22 @@
     link: https://www.docschina.org/
     logo: /images/logo/docschina-logo.png
     desc: 权威的中文技术文档社区
+  MDN:
+    link: https://developer.mozilla.org/
+    logo: /images/logo/mdn-logo.png
+    desc: mdn开发者中心
+  ECMA:
+    link: http://www.ecma-international.org/ecma-262/
+    logo: /images/logo/ecma-logo.svg
+    desc: ES英文文档
+  W3School:
+    link: http://www.w3school.com.cn/
+    logo: /images/logo/w3school-logo.png
+    desc: 领先的Web技术教程
+  前端圈:
+    link: https://fequan.com/
+    logo: /images/logo/fequan-logo.png
+    desc: 前端圈
 框架类库:
   Angular:
     link: https://www.angular.cn/
@@ -57,6 +73,10 @@
     link: https://www.lodashjs.com/
     logo: /images/logo/lodashjs-logo.png
     desc: 一致性、模块化、高性能的js实用工具库
+  RxJS:
+    link: https://cn.rx.js.org/
+    logo: /images/logo/rxjs-logo.png
+    desc: RxJS是使用Observables的响应式编程的库
 图形渲染:
   D3:
     link: https://d3js.org/
@@ -120,12 +140,91 @@ Node:
     link: https://eggjs.org
     logo: /images/logo/egg-logo.png
     desc: 为企业级框架和应用而生
+  pm2:
+    link: https://pm2.io
+    logo: /images/logo/pm2-logo.png
+    desc: nodejs 进程管理工具
 服务:
   BootCDN:
     link: https://www.bootcdn.cn/
     logo: /images/logo/bootcdn-logo.png
     desc: 免费的前端开源项目CDN加速服务
+  jsDelivr:
+    link: https://www.jsdelivr.com/
+    logo: /images/logo/jsdelivr-logo.png
+    desc: Open Source CDN
   netlify:
     link: https://www.netlify.cn/
     logo: /images/logo/netlify-logo.png
     desc: 免费提供静态网络托管服务的综合平台
+  markdown转换:
+    link: http://blog.didispace.com/tools/online-markdown/
+    logo: /images/logo/markdown-logo.png
+    desc: 可转微信公众号
+  马克飞象:
+    link: https://maxiang.io/
+    logo: /images/logo/maxiang-logo.png
+    desc: 在线markdown编辑
+  mockjs:
+    link: http://mockjs.com/
+    logo: /images/logo/mock-logo.svg
+    desc: 生成随机数据，拦截Ajax请求
+  smallpdf:
+    link: https://smallpdf.com/cn
+    logo: /images/logo/smallpdf-logo.png
+    desc: pdf在线转换工具
+  谷歌翻译:
+    link: https://translate.google.cn/
+    logo: /images/logo/google-logo.svg
+    desc: 谷歌翻译
+  yapi:
+    link: http://yapi.demo.qunar.com/
+    logo: /images/logo/qunar-logo.png
+    desc: 接口管理，mock服务
+博客搭建:
+  hexo:
+    link: https://hexo.io/zh-cn/
+    logo: /images/logo/hexo-logo.png
+    desc: 快速、简洁且高效的博客框架
+团队:
+  MidwayJS Team:
+    link: https://midwayjs.org/zh-cn/#
+    logo: /images/logo/midwayjs-logo.png
+    desc: Alibaba Taobao MidwayJS Team
+  taobao FED:
+    link: http://taobaofed.org/
+    logo: /images/logo/taobaofed-logo.png
+    desc: 淘宝前端团队
+  阿里巴巴国际UED团队:
+    link: http://www.aliued.com/
+    logo: /images/logo/ued-logo.png
+    desc: 阿里巴巴国际UED团队
+  腾讯alloyteam:
+    link: http://www.alloyteam.com/
+    logo: /images/logo/tencent-logo.png
+    desc: 腾讯 alloyteam
+  腾讯 ISUX团队:
+    link: https://isux.tencent.com/
+    logo: /images/logo/isux-logo.svg
+    desc: ISUX 腾讯社交用户体验
+  百度 FEX:
+    link: http://fex.baidu.com/
+    logo: /images/logo/baidu-logo.svg
+    desc: 百度前端团队 FEX
+  百度 EFE团队:
+    link: http://efe.baidu.com/
+    logo: /images/logo/baidu-logo.svg
+    desc: 百度EFE团队
+  360 奇舞团:
+    link: https://75team.com/
+    logo: /images/logo/75team-logo.png
+    desc: 360最大的前端团队
+  凹凸实验室:
+    link: https://aotu.io/notes/
+    logo: /images/logo/aotu-logo.png
+    desc: 凹凸实验室
+  YMFE:
+    link: https://ymfe.org/
+    logo: /images/logo/ymfe-logo.png
+    desc: 去哪儿网大前端技术中心
+

@@ -17,7 +17,11 @@
                 <figure class="media media-middle">
                   <div class="media-left pr-no">
                     <a href="<%= item.link %>" target="_blank" class="img-burn thumb-md media-middle">
-                      <img src="<%= item.logo %>" class="w-full" alt="" style="border-radius: 50%">
+                      <% if (item.logo){ %>
+                        <img src="<%= item.logo %>" class="w-full" alt="" style="border-radius: 20%">
+                      <% } else { %>
+                        <img src="/images/avatar.png" class="w-full" alt="" style="border-radius: 20%">
+                      <% } %>
                     </a>
                   </div>
                   <div class="media-body p-0x">

@@ -1,10 +1,28 @@
 ---
 title: markdown常用语法
 categories: markdown
-tags: [markdown,博客]
+tags: [markdown]
 date: 2018-10-01
 ---
-本文参考 [Github markdown 基本写法](https://help.github.com/articles/basic-writing-and-formatting-syntax/#further-reading)，更多详细描述可直接前往Github查看  
+本文参考 [Github markdown 基本写法](https://help.github.com/articles/basic-writing-and-formatting-syntax/#further-reading)，更多详细描述可直接前往Github查看 
+
+# 目录
+- [标题](#标题)
+- [文本样式](#文本样式)
+- [引用文本](#引用文本)
+- [引用代码](#引用代码)
+- [链接](#链接)
+- [部分链接](#部分链接)
+
+```
+- [标题](#标题)
+- [文本样式](#文本样式)
+- [引用文本](#引用文本)
+- [引用代码](#引用代码)
+- [链接](#链接)
+- [部分链接](#部分链接)
+```
+
 # 标题
 文字前使用(1-6个)#，不同数量代表文字不一样大小
 # 标题1

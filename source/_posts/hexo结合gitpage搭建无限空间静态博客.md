@@ -1,6 +1,6 @@
 ---
 title: hexo结合gitpage搭建无限空间静态博客
-categories: 博客
+categories: 笔记
 tags: [hexo,github,gitpage]
 date: 2018-10-19
 ---
