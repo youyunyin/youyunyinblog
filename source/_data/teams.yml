@@ -1,0 +1,36 @@
+# teams
+王智魁:
+  photo: /images/team/wangzhikui.png
+  title: 前端工程师
+  desc: 前端工程师
+  product: umc1.0-2.0、yyy1.0-2.0-3.0、IOSPROBE、timer
+  stack: angularjs、vue、gulp、webpack、java
+  github: https://github.com/wangzhikui
+  blog: http://wushuning.com
+
+梁京祯:
+  photo: /images/team/liangjingzhen.png
+  title: 前端工程师
+  desc: 前端工程师
+  product: yyy1.0-2.0-3.0、js-sdk
+  stack: angularjs、vue、gulp、webpack、java
+  github: 
+  blog: 
+
+翟梦男:
+  photo: /images/team/zhaimengnan.png
+  title: 前端工程师
+  desc: 前端工程师
+  product: yyy3.0、金数宝
+  stack: angularjs、vue、gulp、webpack
+  github: 
+  blog: 
+  
+亢竞:
+  photo: /images/team/kangjing.png
+  title: 前端工程师
+  desc: 前端工程师
+  product: yyy3.0、金数宝
+  stack: angularjs、vue、gulp、webpack
+  github: 
+  blog: 

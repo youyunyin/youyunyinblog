@@ -1,14 +1,120 @@
+<style>
+.team-section .bio-item {
+	transition: all .5s ease;
+	transition-delay: .2s;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	font-size: 14px;
+	padding: 36px 0
+}
+.team-section .avatar {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px
+}
+
+.team-section .desc {
+	padding: 0 50px
+}
+
+.team-section .desc .desc-name {
+	font-size: 24px;
+	line-height: 32px;
+	margin-top: 8px;
+	color: green;
+	margin-bottom: 20px
+}
+
+.team-section .desc .star {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(http://youyunyin.com/images/star.png);
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.team-section .desc .desc-title {
+	color: #898f9c;
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 20px
+}
+
+.team-section .desc .desc-desc {
+	color: #4e5665;
+	line-height: 22px
+}
+
+.team-section .desc .desc-desc .other-content {
+	margin-bottom: 5px
+}
+
+.team-section .other-cont {
+	color: #337ab7
+}
+
+.team-section .other-cont .name-icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	margin-right: 5px
+}
+
+.team-section .desc .desc-desc .other-name {
+	width: 50px;
+	text-align: justify
+}
+</style>
 <article class="article archives-about article-type-normal" itemscope="">
-  <header class="article-header">
-    <h1 itemprop="title"><%= page.title %></h1>
-    <% if(page.description || theme.profile.author_description) { %>
-    <p class="text-muted"><%= page.description || theme.profile.author_description %></p>
-    <% } %>
-  </header>
   <div class="article-body">
-    <%- page.content %>
+    <!-- <%- page.content %> -->
+    <div class="team-section" id="team">
+      <div class="container" id="team_container">
+      <% for (var name in site.data.teams) { %>
+      <% var item = site.data.teams[name]; %>
+       <div class="bio-item row">
+        <div class="avatar-wrapper col-md-2">
+         <img class="avatar" src="<%= item.photo %>" />
+        </div>
+        <div class="desc col-md-10">
+         <div class="desc-name">
+          <%= name %>
+          <span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span></span>
+         </div>
+         <div class="desc-title">
+          <%= item.title %>
+         </div>
+         <div class="desc-desc">
+          <p><%= item.desc %>。</p>
+          <div class="other-content">
+           <span class="other-name">项目: </span>
+           <span class="other-cont"><span><%= item.product %></span>
+          </div>
+          <div class="other-content">
+           <span class="other-name">技术栈: </span>
+           <span class="other-cont"><span><%= item.stack %></span></span>
+          </div>
+          <div class="other-content">
+           <span class="other-name">github: </span>
+           <span class="other-cont"><a href="<%= item.github %>" target="_blank"><%= item.github %></a></span>
+          </div>
+          <div class="other-content">
+            <span class="other-name">area: </span>
+            <span class="other-cont"><a href="<%= item.blog %>" target="_blank"><%= item.blog %></a></span>
+          </div>
+         </div>
+        </div>
+       </div>
+      <% }%>
+      </div>
+     </div>
+
   </div>
 </article>
+<%- page.content %>
+
 <% if (theme.comment.type && !is_home()) { %>
   <%- partial('post/comment', {post: page}) %>
 <% } %>
